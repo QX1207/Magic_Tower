@@ -5,15 +5,18 @@
 # Name: Qian Xiang
 # Description: psceudocodes for this game
 
+# All importing file and python standard library:
+# import sys
+# import time
 
-# Print out a welcome statement
+# Print out the title of game
 # Two selections:
 # First: Just print the sentence "Welcome to the Magic Tower"
 # I would like to print it slowly that create a little bit visual
 # effect
 # import sys
 # import time
-
+#
 # def print_slow(str):
 #     for char in str:
 #         time.sleep(.3)
@@ -23,13 +26,24 @@
 # print_slow('Welcome to the Magic Tower')
 # Second: Print out the following code
 # title =
-r"""                        _
-      __                   (_)
-     /           __ _   __ _  _   ___
-    /  _          / _` | / _` || | / _ |
-   /  / \     /  | (_| || (_| || || (__
-  /  /   \   /    \__,_| \__, ||_| \___|
- /  /     \_/             _/ |
-/__/                    |___/
-"""
+# r"""                                _
+#       __       __                  (_)
+#      /  \     /  \     __ _   __ _  _   ___
+#     /  _ \   / _  \   / _` | / _` || | / _/
+#    /  / \ \_/ / \  \ | (_| || (_| || || (__
+#   /  /   \   /   \  \ \__,_| \__, ||_| \__/
+#  /  /     \_/     \  \         _/ |
+# /__/               \__\       |___/
+#           ____
+# _________/   /
+# |____   ____/
+#     |  |
+#     |  |  ___ __    _    __ ___   _ __
+#     |  | / _ \\ \  /_\  / // _ \| '__/
+#     |  || (_) |\ \// \\/ /|  __/| |
+#     \__/ \___/  \_/   \_/  \___||_|
+# """
 # print(title)
+
+# print introduce introduce text
+# print("...")

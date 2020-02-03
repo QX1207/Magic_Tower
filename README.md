@@ -1,2 +1,2 @@
-# Magic_Tower
+# Magic Tower
 Updating...
