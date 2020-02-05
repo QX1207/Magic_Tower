@@ -47,3 +47,9 @@
 
 # print introduce introduce text
 # print("...")
+# Set up the start menu
+# choices on menu:
+# *characters
+# *map
+# *quit
+# *story
