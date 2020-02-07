@@ -1,6 +1,6 @@
 # Course: CS 30
 # Period: 1
-# Date create: 20/01/30
+# Date created: 20/01/30
 # Date last modified: 20/01/30
 # Name: Qian Xiang
 # Description: psceudocodes for this game
