@@ -1,2 +1,3 @@
 # Magic Tower
 Updating...
+If you are looking for the assignment about list, please open the inventory.py.
