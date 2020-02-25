@@ -25,7 +25,7 @@ rareWeapon = ["Ice Wand - Frozen Ghost", "Wind Sword - Death Zone",
 epicWeapon = ["Star Wand - Final Justice", "Death Stone - Dark Hallow",
               "Unknown Sword - Broken Sword from the Stone"]
 # a list of legenary weapon in the game
-legendaryWeapon = "Chaos Mirror"
+legendaryWeapon = ["Chaos Mirror"]
 
 
 # print the list "commonWeapon" to verify it performs properly
@@ -35,7 +35,7 @@ print(rareWeapon)
 # print the list "epicWeapon" to verify it performs properly
 print(epicWeapon)
 # print the list "legendaryWeapon" to verify it performs properly
-print(legenaryWeapon)
+print(legendaryWeapon)
 # All the items in list "commonWeapon" are printed out in sentence
 # using f-strings
 print("You found a weapon in a chest.",
@@ -105,3 +105,19 @@ print(commonWeapon)
 
 # Use len() to count the number of my list commonWeapon
 len(commonWeapon)
+
+# Use index() to create a numerical list
+numerical_list = []
+for a in commonWeapon:
+    p = commonWeapon.index(a)
+    numerical_list.append(p)
+print(numerical_list)
+
+# Use index to find the weapons' posistion in my list
+index = [1, 3, 7]
+play_weapon = [commonWeapon[i] for i in index]
+player_weapon = []
+for i in index:
+    player_weapon.append(commonWeapon[i])
+
+print(player_weapon)
