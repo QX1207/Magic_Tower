@@ -52,4 +52,31 @@
 # *characters
 # *map
 # *quit
-# *story
+# *game information
+
+# if the player select the *characters
+# then print out some informations about characters
+# character #1:
+# name:
+# background story:
+# begining weapon:
+# ability:
+# character #2:
+# name:
+# background story:
+# begining weapon:
+# ability:
+# after the player select the character. jump to the commonWeapon
+# describe the background story of the map
+# map name:
+# story:
+# task:
+# then enter the game(begin)
+
+# if the player select the *map
+# just print out the map above
+# after select, the player can select the characters
+# print out characters' information
+# after select, enter the game(begin)
+
+#
