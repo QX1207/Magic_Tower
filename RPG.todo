@@ -1,0 +1,20 @@
+Task:
+    ✔ create README file  @done(2020-03-09 08:43) @project(Task)
+    ✔ create changelog @done(2020-03-09 08:43) @project(Task)
+    ✔ create main game file @done(2020-03-09 08:43) @project(Task)
+    ✔ publish the file to Github @done(2020-03-09 08:43) @project(Task)
+
+Craft:
+    ☐ finish my stories in the pseudocode.py
+    ☐ finish weapon system in the inventory.py
+    ☐ finish my menu in the main.py
+    ☐ update my README.md about game's basic information
+    ☐ update my changelog
+
+Class:
+    ☐ weapon
+    ☐ self_inventory
+    ☐ character
+    ☐ map
+
+    
