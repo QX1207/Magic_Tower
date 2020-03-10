@@ -1,25 +1,24 @@
 # Magic Tower
 Magic Tower is a RPG adventure game that player can fight with some monsters
-and escape the tower.
+and escape the tower. (Updating...)
 ## Getting Started
 
 ### Prerequisites
-
-### Installing
-
-
-## Running the tests
-
-### Break down into end to end tests
-
-## Deployment
-
-## Contributing
-
+Python 3.7 is needed to play this game. Python 3.7 to install Python.
+### Installed packages for running the program
+- platformio-ide-terminal
+## Running the program
+```python
+python main.py
+```
+### Break down into end to end program
+```python
+updating
+```
 ## Authors
-
+- Qian Xiang
 ## License
-
+There is not any license yet.
 ## Acknowledgments
 
 ## Tips for teacher
