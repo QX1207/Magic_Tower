@@ -35,6 +35,6 @@ There is not any license yet.
 - People who gave me some advises
 
 ## Tips for teacher
-If you are looking for the assignment about list, please open the inventory.py.
-If you are looking for the "RPG Nested Dictionaries", please go to the main
+- If you are looking for the assignment about list, please open the inventory.py.
+- If you are looking for the "RPG Nested Dictionaries", please go to the main
 file.
