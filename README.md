@@ -23,7 +23,8 @@ updating
 - Qian Xiang
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to
+discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
@@ -35,3 +36,5 @@ There is not any license yet.
 
 ## Tips for teacher
 If you are looking for the assignment about list, please open the inventory.py.
+If you are looking for the "RPG Nested Dictionaries", please go to the main
+file.

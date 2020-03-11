@@ -7,6 +7,9 @@ v1.0
 v1.1
 - fixed a spelling bug in the inventory file
 
+v1.2
+- create a introduction of characters
+
 ### Official release Version
 (After the game can be run, all updated will be here.)
 
