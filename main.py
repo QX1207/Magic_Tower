@@ -29,7 +29,7 @@ print_slow('Welcome to the Magic Tower!')
 characters = {
              'Knight': {
                         'number': '#1', 'name': 'Sir William Marshal',
-                        'background story': ' ',
+                        'background story': 'A knight...',
                         'beginning weapon': 'Wood Sword, Stone Sword, '
                         'Bone Knife, Stone Knife, Wood Knife, '
                         'or Stone Hatchet',
@@ -38,7 +38,7 @@ characters = {
                         'health': '250'},
              'Mage': {
                     'number': '#2', 'name': 'Alastor Moody',
-                    'background story': ' ',
+                    'background story': 'A mage...',
                     'beginning weapon': 'Mechanical Umbrella - Thousands of '
                     'Organ',
                     'ability': 'Ignore enemy armor. (Alastor Moody is a great '
@@ -68,12 +68,14 @@ for characters, characters_info in characters.items():
 
 # dictionary about location
 locations = {'map #1': {
-             'map name': "symbol of water--Nereus's wealth",
-             'story': '',
-             'tasks': "1st: find the password"
-             "\n"
+             'map name': "Symbol of Water--Nereus's wealth",
+             'story': 'This is a old tower from a long time ago. '
+             'We do not anything about it, except it create by Nereus.',
+             'tasks': "\n\t"
+             "1st: find the password"
+             "\n\t"
              "2nd: beat the Nereus's incarnation, then find the door"
-             "\n"
+             "\n\t"
              "3rd: enter the correct password, then win the game"}}
 
 
@@ -90,88 +92,16 @@ for locations, locations_info in locations.items():
 
 # dictionary about weapon(inventory)
 # a dictionary of weapon in the game
-inventory = {"Common Weapon": {'Wood Sword':
-                           {'description': "",
-                            'damage': 10,
-                            'protection': 0},
-                           'Stone Sword':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Bone Knife':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Stone Knife':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Wood Knife':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Stone Hatchet':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Wood Dragger':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Stone Dragger':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Broken Bow and Arrow - Dragon and Triger':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0},
-                           'Wood Bow and Arrow':
-                           {'description': "",
-                            'damage': 0,
-                            'protection': 0}},
-        "Rare Weapon": {"Ice Wand - Frozen Ghost":
-                        {'description': "",
-                         'damage': 0,
-                         'protection': 0},
-                        "Wind Sword - Death Zone":
-                        {'description': "",
-                         'damage': 0,
-                         'protection': 0},
-                        "Fire Dagger - Fire Punishment":
-                        {'description': "",
-                         'damage': 0,
-                         'protection': 0},
-                        "Dark Dragger - Infinite":
-                        {'description': "",
-                         'damage': 0,
-                         'protection': 0},
-                        "Mechanical Umbrella - Thousands of Organ":
-                        {'description': "",
-                         'damage': 0,
-                         'protection': 0}},
-        "Epic Weapon": {"Star Wand - Final Justice":
-                       {'description': "",
-                        'damage': 0,
-                        'protection': 0},
-                       "Death Stone - Dark Hallow":
-                       {'description': "",
-                        'damage': 0,
-                        'protection': 0},
-                       "Unknown Sword - Broken Sword from the Stone":
-                       {'description': "",
-                        'damage': 0,
-                        'protection': 0}},
-        "Legendary Weapon": {"Chaos Mirror":
-                             {'description': "",
-                              'damage': 0,
-                              'protection': 0}}}
+weapons = {"Weapons' inventory": {
+           'name': 'Stone Hatchet',
+           'description': 'A wonderful heavy guy',
+           'damage': '20'}}
 
 # Print out the weapon from my dictionary
-for item in weapon[level]:
-        description = weapon[level][item]["description"]
-        damage = weapon[level][item]["damage"]
-        protection = weapon[level][item]["protection"]
-        print(f"{level}'s {item} - {description}")
-        print(f"damage: {damage}")
-        print(f"protection: {protection}")
+for weapons, weapons_info in weapons.items():
+    W = weapons_info["name"]
+    print(f"\n*Knight's weapons:\n{W}")
+    W_description = weapons_info['description']
+    W_damage = weapons_info['damage']
+    print(f"\tdescription: It is Marshal's weapon. {W_description}")
+    print(f"\tdamage: {W_damage}")

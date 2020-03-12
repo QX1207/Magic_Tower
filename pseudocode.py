@@ -59,7 +59,7 @@
 # character #1:
 # name: knight Sir William Marshal
 # background story: (construction)
-# begining weapon: Wood Sword, Stone Sword, Bone Knife, Stone Knife,
+# beginning weapon: Wood Sword, Stone Sword, Bone Knife, Stone Knife,
 # Wood Knife, or Stone Hatchet.
 # ability: (construction)
 # attack damage: 26
@@ -68,7 +68,7 @@
 # character #2:
 # name: mage Alastor Moody
 # background story: (construction)
-# begining weapon: Ice Wand - Frozen Ghost or
+# beginning weapon: Ice Wand - Frozen Ghost or
 # Mechanical Umbrella - Thousands of Organ
 # ability: Ignore enemy armor. (Alastor Moody is a great mage from British.
 # His power can destory other armor. He is a good choice to defeat high armor
@@ -152,3 +152,18 @@
 
 # inventory information:
 # weapon: (construction)
+'name': 'Wood Sword',
+'description': 'A long sword that made by wood.',
+'damage': '10',
+'name': 'Stone Sword',
+'description': 'A tough sword that made by stone',
+'damage': '15',
+'name': 'Bone Sword',
+'description': 'A mysterious sword with snake blood',
+'damage': '18',
+'name': 'Stone Knife',
+'description': 'A stone knife that look like fish',
+'damage': '8',
+'name': 'Wood Knife',
+'description': 'A toy',
+'damage': '6',
