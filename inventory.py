@@ -121,3 +121,7 @@ for i in index:
     player_weapon.append(commonWeapon[i])
 
 print(player_weapon)
+
+# print out a list of the individual items using loops
+for i in commonWeapon:
+    print(i)

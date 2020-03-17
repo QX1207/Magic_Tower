@@ -38,3 +38,4 @@ There is not any license yet.
 - If you are looking for the assignment about list, please open the inventory.py.
 - If you are looking for the "RPG Nested Dictionaries", please go to the main
 file.
+- If you are looking for the redo assignment about list, please open the inventory.py and check the last line.
